@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 12px;
+  background: #f9f9f9;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 14px;
+  background: white;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #efefef;
+}
+
+.section {
+  background: white;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.section h3 {
+  margin-top: 0;
+}
+
+.step {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.step input {
+  transform: scale(1.3);
+}
+
+.locked {
+  color: #999;
+  font-style: italic;
+}
+
+.resolution {
+  margin-top: 10px;
+}
+
+.resolution button {
+  margin-top: 6px;
+}
+h2 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.section {
+  border-left: 4px solid #ddd;
+}
+
+.section:nth-of-type(1) { border-color: #2ecc71; } /* Field */
+.section:nth-of-type(2) { border-color: #f39c12; } /* Inspection */
+.section:nth-of-type(3) { border-color: #e74c3c; } /* Internal */
+
+.step span {
+  line-height: 1.4;
+}
+li {
+  transition: background 0.15s ease;
+}
+
+li:active {
+  background: #ddd;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
